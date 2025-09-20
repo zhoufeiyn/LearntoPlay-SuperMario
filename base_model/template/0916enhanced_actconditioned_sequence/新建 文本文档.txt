@@ -1,0 +1,147 @@
+
+!python flow_matching_mario_enhanced.py train
+🚀 开始训练增强版Mario Flow Matching模型
+🔍 正在扫描数据路径: ./data_mario
+📁 扫描目录: ./data_mario
+   找到 0 个文件
+📁 扫描目录: ./data_mario/Rafael_dp2a9j4i_e6_1-1_win
+   找到 2179 个文件
+📊 扫描结果:
+   总文件数: 2179
+   有效图像: 2179
+✅ 加载了 2179 张图像
+   动作分布: [641   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 135   0
+  20   0]...
+/content/flow_matching_mario_enhanced.py:495: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler() if cfg.mixed_precision and device.type == 'cuda' else None
+🚀 开始增强训练
+   数据量: 2179
+   批次大小: 4
+   训练轮数: 20
+   设备: cuda
+   GPU: Tesla T4
+   GPU内存: 14.7 GB
+   混合精度: 启用
+   GPU内存已清理
+[Epoch 1] Batch 0 Loss: 1.669136
+[Epoch 1] Batch 50 Loss: 0.389228
+[Epoch 1] Batch 100 Loss: 0.260376
+[Epoch 1] Batch 150 Loss: 0.419737
+[Epoch 1] Batch 200 Loss: 0.229194
+[Epoch 1] Batch 250 Loss: 0.207436
+[Epoch 1] Batch 300 Loss: 0.194421
+[Epoch 1] Batch 350 Loss: 0.425283
+[Epoch 1] Batch 400 Loss: 0.193550
+[Epoch 1] Batch 450 Loss: 0.141700
+[Epoch 1] Batch 500 Loss: 0.186252
+Epoch 1 completed. Avg Loss: 0.325484
+[Epoch 2] Batch 0 Loss: 0.172374
+[Epoch 2] Batch 50 Loss: 0.247637
+[Epoch 2] Batch 100 Loss: 0.146702
+[Epoch 2] Batch 150 Loss: 0.296057
+[Epoch 2] Batch 200 Loss: 0.151227
+[Epoch 2] Batch 250 Loss: 0.132038
+[Epoch 2] Batch 300 Loss: 0.119435
+[Epoch 2] Batch 350 Loss: 0.140588
+[Epoch 2] Batch 400 Loss: 0.103966
+[Epoch 2] Batch 450 Loss: 0.181042
+[Epoch 2] Batch 500 Loss: 0.103375
+Epoch 2 completed. Avg Loss: 0.166443
+[Epoch 3] Batch 0 Loss: 0.090462
+[Epoch 3] Batch 50 Loss: 0.091728
+[Epoch 3] Batch 100 Loss: 0.095354
+[Epoch 3] Batch 150 Loss: 0.076216
+[Epoch 3] Batch 200 Loss: 0.363747
+[Epoch 3] Batch 250 Loss: 0.165575
+[Epoch 3] Batch 300 Loss: 0.128758
+[Epoch 3] Batch 350 Loss: 0.080911
+[Epoch 3] Batch 400 Loss: 0.167454
+[Epoch 3] Batch 450 Loss: 0.065028
+[Epoch 3] Batch 500 Loss: 0.065906
+Epoch 3 completed. Avg Loss: 0.123674
+[Epoch 4] Batch 0 Loss: 0.093992
+[Epoch 4] Batch 50 Loss: 0.085314
+[Epoch 4] Batch 100 Loss: 0.098428
+[Epoch 4] Batch 150 Loss: 0.050441
+[Epoch 4] Batch 200 Loss: 0.113855
+[Epoch 4] Batch 250 Loss: 0.051974
+[Epoch 4] Batch 300 Loss: 0.052524
+[Epoch 4] Batch 350 Loss: 0.091761
+[Epoch 4] Batch 400 Loss: 0.335589
+[Epoch 4] Batch 450 Loss: 0.088492
+[Epoch 4] Batch 500 Loss: 0.041188
+Epoch 4 completed. Avg Loss: 0.095940
+[Epoch 5] Batch 0 Loss: 0.109109
+[Epoch 5] Batch 50 Loss: 0.116800
+[Epoch 5] Batch 100 Loss: 0.038272
+[Epoch 5] Batch 150 Loss: 0.077717
+[Epoch 5] Batch 200 Loss: 0.064139
+[Epoch 5] Batch 250 Loss: 0.134175
+[Epoch 5] Batch 300 Loss: 0.056135
+[Epoch 5] Batch 350 Loss: 0.070047
+[Epoch 5] Batch 400 Loss: 0.086563
+[Epoch 5] Batch 450 Loss: 0.037700
+[Epoch 5] Batch 500 Loss: 0.132201
+Epoch 5 completed. Avg Loss: 0.078646
+🎬 动作序列GIF已保存: ./output/enhanced_mario/sequence_epoch5.gif
+[Epoch 6] Batch 0 Loss: 0.099125
+[Epoch 6] Batch 50 Loss: 0.094341
+[Epoch 6] Batch 100 Loss: 0.072891
+[Epoch 6] Batch 150 Loss: 0.050916
+[Epoch 6] Batch 200 Loss: 0.051029
+[Epoch 6] Batch 250 Loss: 0.032483
+[Epoch 6] Batch 300 Loss: 0.074293
+[Epoch 6] Batch 350 Loss: 0.056689
+[Epoch 6] Batch 400 Loss: 0.047884
+[Epoch 6] Batch 450 Loss: 0.032229
+[Epoch 6] Batch 500 Loss: 0.067946
+Epoch 6 completed. Avg Loss: 0.067624
+[Epoch 7] Batch 0 Loss: 0.066054
+[Epoch 7] Batch 50 Loss: 0.120005
+[Epoch 7] Batch 100 Loss: 0.050080
+[Epoch 7] Batch 150 Loss: 0.026068
+[Epoch 7] Batch 200 Loss: 0.056569
+[Epoch 7] Batch 250 Loss: 0.027004
+[Epoch 7] Batch 300 Loss: 0.027788
+[Epoch 7] Batch 350 Loss: 0.030677
+[Epoch 7] Batch 400 Loss: 0.020170
+[Epoch 7] Batch 450 Loss: 0.040937
+[Epoch 7] Batch 500 Loss: 0.028560
+Epoch 7 completed. Avg Loss: 0.062362
+[Epoch 8] Batch 0 Loss: 0.029273
+[Epoch 8] Batch 50 Loss: 0.033973
+[Epoch 8] Batch 100 Loss: 0.057198
+[Epoch 8] Batch 150 Loss: 0.023587
+[Epoch 8] Batch 200 Loss: 0.025475
+[Epoch 8] Batch 250 Loss: 0.061462
+[Epoch 8] Batch 300 Loss: 0.034916
+[Epoch 8] Batch 350 Loss: 0.038290
+[Epoch 8] Batch 400 Loss: 0.033513
+[Epoch 8] Batch 450 Loss: 0.032122
+[Epoch 8] Batch 500 Loss: 0.020861
+Epoch 8 completed. Avg Loss: 0.057527
+[Epoch 9] Batch 0 Loss: 0.054223
+[Epoch 9] Batch 50 Loss: 0.017551
+[Epoch 9] Batch 100 Loss: 0.045088
+[Epoch 9] Batch 150 Loss: 0.176934
+[Epoch 9] Batch 200 Loss: 0.018493
+[Epoch 9] Batch 250 Loss: 0.032445
+[Epoch 9] Batch 300 Loss: 0.051906
+[Epoch 9] Batch 350 Loss: 0.026084
+[Epoch 9] Batch 400 Loss: 0.043676
+[Epoch 9] Batch 450 Loss: 0.271811
+[Epoch 9] Batch 500 Loss: 0.038569
+Epoch 9 completed. Avg Loss: 0.054490
+[Epoch 10] Batch 0 Loss: 0.096219
+[Epoch 10] Batch 50 Loss: 0.025558
+[Epoch 10] Batch 100 Loss: 0.024233
+[Epoch 10] Batch 150 Loss: 0.082001
+[Epoch 10] Batch 200 Loss: 0.015779
+[Epoch 10] Batch 250 Loss: 0.051855
+[Epoch 10] Batch 300 Loss: 0.049407
+[Epoch 10] Batch 350 Loss: 0.028453
+[Epoch 10] Batch 400 Loss: 0.054725
+[Epoch 10] Batch 450 Loss: 0.040474
+[Epoch 10] Batch 500 Loss: 0.044153
+Epoch 10 completed. Avg Loss: 0.054329
+🎬 动作序列GIF已保存: ./output/enhanced_mario/sequence_epoch10.gif
